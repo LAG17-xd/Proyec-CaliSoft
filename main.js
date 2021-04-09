@@ -14,11 +14,11 @@ $(document).ready(function(){
 		swal({
 		  	title: '¿Estas seguro?',
 		  	text: "Se cerrará la sesión actual",
-		  	type: 'Peligro',
+		  	type: 'warning',
 		  	showCancelButton: true,
 		  	confirmButtonColor: '#03A9F4',
 		  	cancelButtonColor: '#F44336',
-		  	confirmButtonText: '<i class="zmdi zmdi-run"></i> si , Salir!',
+		  	confirmButtonText: '<i class="zmdi zmdi-run"></i> Si, Salir!',
 		  	cancelButtonText: '<i class="zmdi zmdi-close-circle"></i> No, Cancelar!'
 		}).then(function () {
 			window.location.href="index.html";
